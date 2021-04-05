@@ -46,7 +46,9 @@ router.post('/login', async (req: IRequest, res: Response) => {
     });
     // Return
     return res.status(OK).json({
-        jwt: jwt
+        id: user.id,
+        email: user.email,
+        token: jwt
     });
 });
 

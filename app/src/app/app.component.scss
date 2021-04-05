@@ -1,21 +1,4 @@
-
-
-.login-block {
-  display: inline-block;
-  margin-right: 2em;
-  vertical-align: center;
-}
-
-.login-block .login-header {
-  font-weight: bold;
-  margin-bottom: 1em;
-}
-
-.login-block .login-input {
-  margin-bottom: 1em;
-}
-
-.login-block .default-login-user {
-  margin-top: 1em;
-  color: #909090;
+.expanded-toolbar {
+  justify-content: space-between;
+  align-items: center;
 }
